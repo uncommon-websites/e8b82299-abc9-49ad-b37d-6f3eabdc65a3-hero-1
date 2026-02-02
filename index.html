@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merchwell Hero Section</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Reviewsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .font-serif {
+            font-family: 'Newsreader', serif;
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-900 antialiased">
+
+    <!-- Top Bar -->
+    <div class="bg-[#0f0f0f] text-white text-[13px] py-2.5 flex justify-center items-center gap-2 font-medium tracking-wide">
+        <span class="w-1.5 h-1.5 rounded-full bg-[#00b060]"></span>
+        <p>Get AirPods Pro with orders $5,000+ (Ends Feb 28) <a href="#" class="underline decoration-1 underline-offset-2 ml-1 text-gray-200 hover:text-white">Claim Offer</a></p>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="border-b border-gray-100 px-6 py-4 flex justify-between items-center sticky top-0 bg-white/95 backdrop-blur-sm z-50">
+        <!-- Logo -->
+        <div class="flex items-center">
+            <a href="#" class="text-2xl font-medium tracking-tight text-black">merchwell</a>
+        </div>
+
+        <!-- Center Links -->
+        <div class="hidden md:flex items-center gap-8 text-[15px] text-[#475569] font-medium">
+            <a href="#" class="hover:text-black transition-colors">Packs</a>
+            <a href="#" class="hover:text-black transition-colors">Fulfillment</a>
+            <a href="#" class="hover:text-black transition-colors">Pricing</a>
+            <a href="#" class="hover:text-black transition-colors">News</a>
+            <a href="#" class="hover:text-black transition-colors">Case Studies</a>
+        </div>
+
+        <!-- Right Actions -->
+        <div class="flex items-center gap-6">
+            <a href="#" class="text-[15px] font-medium text-gray-900 hover:text-gray-600">Log in</a>
+            <a href="#" class="bg-[#111] text-white text-[15px] font-medium px-5 py-2.5 rounded-full hover:bg-black transition-colors">Get Started</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <main class="pt-24 pb-0">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            
+            <!-- Headline -->
+            <h1 class="font-serif text-5xl md:text-[4.5rem] leading-[1.1] text-[#111] mb-6 tracking-tight">
+                Professional Corporate Gifting on Autopilot
+            </h1>
+
+            <!-- Subheadline -->
+            <p class="text-gray-500 text-lg md:text-[1.15rem] leading-relaxed max-w-2xl mx-auto mb-12 font-normal">
+                Curated packs, global warehousing, and automated<br class="hidden md:block">
+                fulfillment infrastructure for modern People Ops teams.
+            </p>
+
+            <!-- CTA Button with Brackets -->
+            <div class="relative inline-block mb-24 group cursor-pointer">
+                <!-- Top Left Bracket -->
+                <div class="absolute -top-2 -left-4 w-3 h-3 border-t-[2.5px] border-l-[2.5px] border-black"></div>
+                
+                <a href="#" class="block bg-[#111] text-white text-[17px] font-medium px-9 py-3.5 rounded-full hover:bg-black hover:scale-105 transition-transform duration-200">
+                    Build a Pack
+                </a>
+
+                <!-- Bottom Right Bracket -->
+                <div class="absolute -bottom-2 -right-4 w-3 h-3 border-b-[2.5px] border-r-[2.5px] border-black"></div>
+            </div>
+
+        </div>
+
+        <!-- Hero Image Container -->
+        <div class="relative w-full h-[600px] md:h-[700px] overflow-hidden">
+            <!-- Background Image Placeholder (Skyscrapers) -->
+            <img src="https://imolwncbqxugevwmleed.supabase.co/storage/v1/object/public/public-assets/hero-images/e8b82299-abc9-49ad-b37d-6f3eabdc65a3/hero-1-img-0-1770057923935.png" alt="Skyscrapers Background" class="w-full h-full object-cover object-center opacity-90">
+            
+            <!-- Overlay Gradient/Tint to match the bluish/gray tone -->
+            <div class="absolute inset-0 bg-gradient-to-b from-white/20 to-transparent mix-blend-overlay"></div>
+
+            <!-- Floating UI Card -->
+            <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[90%] max-w-[580px]">
+                <div class="bg-white rounded-xl shadow-2xl p-5 h-[160px] flex flex-col justify-between border border-gray-100/50">
+                    <!-- Input Text -->
+                    <div class="text-lg text-gray-800 font-normal">
+                        Send onboarding packs to 10 new hires
+                    </div>
+
+                    <!-- Bottom Row: Icon and Button -->
+                    <div class="flex justify-between items-end">
+                        <!-- Paperclip Icon -->
+                        <div class="text-gray-400 hover:text-gray-600 cursor-pointer pb-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5 rotate-45">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M18.375 12.739l-7.693 7.693a4.5 4.5 0 01-6.364-6.364l10.94-10.94A3 3 0 1119.5 7.372L8.552 18.32m.009-.01l-.01.01m5.699-9.941l-7.81 7.81a1.5 1.5 0 002.112 2.13" />
+                            </svg>
+                        </div>
+
+                        <!-- Submit Arrow Button -->
+                        <button class="bg-[#1a5c4d] hover:bg-[#144a3d] text-white p-2 rounded-lg transition-colors">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-5 h-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
